@@ -1,7 +1,7 @@
 # 🌍 Tourism Website
 
 ## About
-This is a tourism website project built using HTML, Tailwind CSS, and JavaScript. The website aims to provide users with information about various tourist destinations, travel tips, and booking options. 🏖️✈️
+This is a tourism website project built using HTML, Tailwind CSS, and JavaScript. The website aims to provide users with information about various tourist destinations, travel tips, and booking options 🏖️✈️ and it is currently in development
 
 ## Features
 - **Responsive Design**: The website is fully responsive and works on all devices. 📱💻
