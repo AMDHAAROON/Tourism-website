@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/*.html"],
+  darkMode:'class',
   theme: {
     extend: {
+      
       fontFamily:{
         true:['Yuji Mai'],
         chalk:['Edu AU VIC WA NT Arrows'],
@@ -11,6 +13,7 @@ module.exports = {
         standardbold:['DM Serif Text'],
         marker:['Concert One'],
       },
+      
       colors:{
         sorange:'#D08849',
         sblue:'#408CBF',
