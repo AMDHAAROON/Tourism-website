@@ -27,6 +27,8 @@ module.exports = {
         butter:'#FFD09A',
         borderbutter:'#FF961E',
         litemint:'#9EE6D3',
+        new2:'#EF798A',
+        new3:'#C2EABA',
       },
     },
   },
