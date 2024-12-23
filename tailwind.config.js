@@ -8,9 +8,8 @@ module.exports = {
       fontFamily:{
         true:['Yuji Mai'],
         chalk:['Edu AU VIC WA NT Arrows'],
-        cursive:['Cedarville Cursive'],
-        standard:['IBM Plex Serif'],
-        standardbold:['DM Serif Text'],
+        cursive:['Cookie'],
+       
         marker:['Concert One'],
       },
       
