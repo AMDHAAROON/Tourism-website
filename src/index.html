@@ -27,13 +27,13 @@
     width: 100%;
     height: 100%;
     
-    top: 110px;
+    top: 100px;
     
 }
 .mobile-nav ul li{
     height: 100%;
     width: 100%;
-    
+    justify-content: center;
 }
     </style>
     <head>
@@ -45,7 +45,7 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body class="p-5 md:p-8 text-gray-800 dark  bg-[#EBF2FA]">
-      <section class="bg-[#2A9D8F]  rounded-2xl p-5  text-[#F7F3E3]" > 
+      <section class="bg-gradient-to-tr from-[#264653] to-[#42c7b7]  rounded-2xl p-5  text-[#F7F3E3]" > 
         <div class="container mx-auto">
             <div class="flex">
                 <a href="index.html" class="text-4xl font-true pr-5 border-r text-swhite border-white mr-5 pb-2">Tickit</a>
@@ -57,10 +57,11 @@
                       
                 </button>
                 <ul class="lg:flex hidden text-[#264653] " >
-                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-4 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500 " href="/src/index.html">HOME</a></li>
-                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-4 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500" href="#about">ABOUT</a></li>
-                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-4 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500" href="#service">SERVICE</a></li>
-                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-4 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500" href="#package">PACKAGES</a></li>
+                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-2 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500 " href="/src/index.html">HOME</a></li>
+                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-2 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500" href="#about">ABOUT</a></li>
+                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-2 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500" href="#service">SERVICE</a></li>
+                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-2 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500" href="#package">PACKAGES</a></li>
+                    <li class="pr-5"><a class="px-3 font-bold py-2 border-b-2 border-[#2A9D8F] rounded-sm cursor-pointer hover:border-white duration-500" href="#Contact">CONTACT</a></li>
                 </ul>
                </div>
                 <a href="" class="text-medium bg-[#E08E45] p-2 text-white rounded-2xl font-bold ml-auto flex my-auto">
@@ -69,12 +70,14 @@
                  <img width="30" height="30" src="https://img.icons8.com/cotton/64/around-the-globe--v1.png" alt="around-the-globe--v1"/>
                 </a>
             </div>
-         <div class="hidden animate-slide-down rounded-t-2xl  bg-gradient-to-t from-[#42c7b7] to-[#264653]  fixed mobile-nav" id="mmenu"> 
-             <ul class="lg:hidden text-center py-14 font-bold text-lg " onclick="hide()">
-                <li class="pl-2 mt-1   "><a class="py-2 pb-2 border-b-4 w-[100px]  border-white " href="/src/index.html">HOME</a></li>
-                <li class="pl-2 mt-16 "><a class="py-2  pb-2 border-b-4 w-[100px]  border-white " href="#about">ABOUT</a></li>
-                <li class="pl-2 mt-16 "><a class="py-2  pb-2 border-b-4 w-[100px]  border-white" href="#service">SERVICE</a></li>
-                <li class="pl-2 mt-16" ><a class="py-2  pb-2 border-b-4 w-[100px]  border-white" href="#package">PACKAGES</a></li>
+         <div class="hidden animate-slide-down rounded-t-2xl  bg-gradient-to-t from-[#42c7b7] to-[#264653]    fixed justify-items-center mobile-nav" id="mmenu"> 
+           
+            <ul class="lg:hidden   font-bold text-lg  text-center py-16 mx-auto justify-center" onclick="hide()">
+                <li class="pl-2 mt-1  "><a class="py-2  pb-2 border-b-4 w-[100px]  border-white rounded-sm " href="/src/index.html">HOME</a></li>
+                <li class="pl-2 mt-16 "><a class="py-2  pb-2 border-b-4 w-[100px]  border-white rounded-sm " href="#about">ABOUT</a></li>
+                <li class="pl-2 mt-16" ><a class="py-2  pb-2 border-b-4 w-[100px]  border-white " href="#Contact">CONTACT</a></li>
+                <li class="pl-2 mt-16" ><a class="py-2  pb-2 border-b-4 w-[100px]  border-white " href="#package">PACKAGES</a></li>
+                
             </ul>
         </div>
         <div class=" flex py-12 lg:py-36 ">
@@ -82,7 +85,7 @@
                 <h2 class=" text-center lg:text-left text-3xl lg:text-5xl font-marker ml-5">
                     Choose your place in this world.
                 </h2>
-                <p class=" text-center lg:text-left mt-5 lg:mt-10 ml-5 text-2xl lg:text-3xl font-cursive text-[#264653]">
+                <p class=" text-center lg:text-left mt-5 lg:mt-10 ml-5 text-2xl lg:text-[40px] font-cursive text-swhite]">
                     Lets book your tickets effortlessly ! ! !
                 </p>
                 <div class="flex mt-12 justify-center lg:justify-start">
@@ -98,7 +101,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
               </svg>
-              <span class="ml-3">Scroll Down</span>
+             <a href="#statistic"><span class="ml-3">Scroll Down</span></a>
         </div>
         </div>
      </section>  
@@ -114,6 +117,59 @@
            </div>
         
      </section> 
+     <section class="rounded-2xl py-10 mt-5 p-5 bg-gradient-to-br from-[#42c7b7] to-[#264653] ">
+        <div class="container mx-auto  ">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5 " id="statistic">
+                    <div class="bg-swhite border-4  border-white hover:border-[#44beb0] shadow-2xl rounded-xl p-10 text-center ">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-16 w-16 mx-auto">
+                            <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd" />
+                            <path d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
+                          </svg>
+                          </div>
+                      <div class="mt-8">
+                        <h2 class="font-marker text-gray-700 text-3xl">"1000" </h2>
+                        <p class="font-marker mt-3 ">Clients are satisfied</p>
+                      </div>
+                      </div>
+                   
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5">
+                    <div class="bg-cherry rounded-xl p-10 border-4 border-white hover:border-[#778d96] shadow-2xl justify-items-center ">
+                        <div ><img width="65" height="65" class="mx-auto" src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/external-map-location-summer-smashingstocks-detailed-outline-smashing-stocks.png" alt="external-map-location-summer-smashingstocks-detailed-outline-smashing-stocks"/></div>
+                      <div class="mt-8 text-center">
+                        <h2 class="font-marker text-gray-700 text-3xl">" 500+"</h2>
+                        <p class="font-marker mt-3 ">Locations are available</p>
+                      </div>
+                      </div>
+                   
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5">
+                    <div class="bg-swhite rounded-xl p-10 border-4 border-white hover:border-[#44beb0] shadow-2xl justify-items-center ">
+                        <div ><img width="65" height="65" class="mx-auto" src="https://img.icons8.com/ios/50/around-the-globe.png" alt="around-the-globe"/></div>
+                      <div class="mt-8 text-center">
+                        <h2 class="font-marker text-gray-700 text-3xl">"30" </h2>
+                        <p class="font-marker mt-3 ">Most visited places</p>
+                      </div>
+                      </div>
+                   
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5">
+                    <div class="bg-cherry rounded-xl p-10 border-4 border-white hover:border-[#778d96] shadow-2xl justify-items-center ">
+                        <div ><img width="66" height="66" class="mx-auto" src="https://img.icons8.com/wired/64/3-star-hotel.png" alt="3-star-hotel"/></div>
+                      <div class="mt-8 text-center">
+                        <h2 class="font-marker text-gray-700 text-3xl">"700" </h2>
+                        <p class="font-marker mt-3 ">Hotels in collab</p>
+                      </div>
+                      </div>
+                   
+                </div>
+                
+                
+            </div>
+            
+            </div>
+    </section> 
      <section class="bg-[#264653] rounded-2xl p-5 mt-3" id="service">
  <div class="container mx-auto ">
     <div class=" py-16 lg:py-25">
@@ -188,59 +244,7 @@
 </div>
         </div>
     </section>  -->
-    <section class="rounded-2xl py-10 mt-5 p-5">
-        <div class="container mx-auto  ">
-            <div class="flex flex-wrap">
-                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5 ">
-                    <div class="bg-swhite border-4  border-white hover:border-[#44beb0] shadow-2xl rounded-xl p-10 text-center ">
-                        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-16 w-16 mx-auto">
-                            <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd" />
-                            <path d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
-                          </svg>
-                          </div>
-                      <div class="mt-8">
-                        <h2 class="font-marker text-gray-700 text-3xl">"1000" </h2>
-                        <p class="font-marker mt-3 ">Clients are satisfied</p>
-                      </div>
-                      </div>
-                   
-                </div>
-                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5">
-                    <div class="bg-cherry rounded-xl p-10 border-4 border-white hover:border-[#778d96] shadow-2xl justify-items-center ">
-                        <div ><img width="65" height="65" src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/external-map-location-summer-smashingstocks-detailed-outline-smashing-stocks.png" alt="external-map-location-summer-smashingstocks-detailed-outline-smashing-stocks"/></div>
-                      <div class="mt-8 text-center">
-                        <h2 class="font-marker text-gray-700 text-3xl">" 500+"</h2>
-                        <p class="font-marker mt-3 ">Locations are available</p>
-                      </div>
-                      </div>
-                   
-                </div>
-                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5">
-                    <div class="bg-swhite rounded-xl p-10 border-4 border-white hover:border-[#44beb0] shadow-2xl justify-items-center ">
-                        <div ><img width="65" height="65" src="https://img.icons8.com/ios/50/around-the-globe.png" alt="around-the-globe"/></div>
-                      <div class="mt-8 text-center">
-                        <h2 class="font-marker text-gray-700 text-3xl">"30" </h2>
-                        <p class="font-marker mt-3 ">Most visited places</p>
-                      </div>
-                      </div>
-                   
-                </div>
-                <div class="w-full lg:w-1/2 xl:w-1/4    rounded-xl p-5">
-                    <div class="bg-cherry rounded-xl p-10 border-4 border-white hover:border-[#778d96] shadow-2xl justify-items-center ">
-                        <div ><img width="66" height="66" src="https://img.icons8.com/wired/64/3-star-hotel.png" alt="3-star-hotel"/></div>
-                      <div class="mt-8 text-center">
-                        <h2 class="font-marker text-gray-700 text-3xl">"700" </h2>
-                        <p class="font-marker mt-3 ">Hotels in collab</p>
-                      </div>
-                      </div>
-                   
-                </div>
-                
-                
-            </div>
-            
-            </div>
-    </section> 
+    
     <section class="bg-gradient-to-t from-[#42c7b7] to-[#264653] rounded-2xl p-8 mt-5" id="package">
         <div class="container mx-auto  ">
            <div class=" py-16 lg:py-25 ">
@@ -463,7 +467,7 @@
            </div>
         
      </section>    
-    <footer class="bg-gradient-to-t from-[#42c7b7] to-[#264653]  rounded-2xl px-5 py-8 mt-5">
+    <footer class="bg-gradient-to-t from-[#42c7b7] to-[#264653]  rounded-2xl px-5 py-8 mt-5" id="Contact">
         <div class="flex flex-wrap text-white ">
             <div class=" hidden md:block p-5  w-full md:w-1/3 md:border-r-4 border-emerald-700 justify-items-center pl-2">
                 <h2 class="text-2xl font-marker text-gray-300 border-b-2 border-white">
