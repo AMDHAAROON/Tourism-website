@@ -1,5 +1,5 @@
 # 🌍 Tourism Website
-## https://amdhaaroon.github.io/Tourism-website/src
+link: https://amdhaaroon.github.io/Tourism-website/src
 ## About
 This is a tourism website project built using HTML, Tailwind CSS, and JavaScript. The website aims to provide users with information about various tourist destinations, travel tips, and booking options 🏖️✈️ and it is currently in development.
 
